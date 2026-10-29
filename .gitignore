@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.streamlit/secrets.toml
+# Downloaded model weights / datasets (never commit these)
+*.pt
+*.pth
+*.ckpt
+chest_xray/
+data/
+eval_results/
+.DS_Store
